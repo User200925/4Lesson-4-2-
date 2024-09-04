@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.header{
+    margin: 0 auto;
+}
+.header-content{
+    margin: 0 auto;
+    width: 1440px;
+    height: 156px;
+    padding: 40px 0 0 0;
+    background-color: white;
+    box-shadow: 0px 6px 7px -7px grey;
+}
+.header-element ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 600;
+    color: #BCAAAA;
+}
+.header-element ul :hover{
+    color: #EF400F;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.header-element ul li{
+    gap: 11px;
+    display: flex;
+    align-items: center;
+}
+.Post{
+    width: 219px;
+    height: 63px;
+    border: 2px solid #EF400F;
+    color: #EF400F;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: white;
+}
+.Post :hover{
+    font-size: none;
+    font-weight: normal;
+}
+.section1{
+    margin: 71px auto;
+}
+.section-content1{
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box1{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.item{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D0C5C;
+}
+.item01{
+    font-size: 38px;
+    font-weight: 600;
+    color: #EF400F;
+}
+.section2{
+    margin: 0 auto;
+    width: 1340px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section-content2{
+    position: relative;
+}
+.section-content2 :hover{
+        transform: scale(0.98);
+}
+
+.box2{
+    padding: 0 0 24px 0;
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px .3px grey;
+    margin: 0 0 35px 0;
+}
+.box2 :hover{
+    transform: none;
+}
+.box3{
+    text-align: center;
+}
+
+.coins{
+    position: absolute;
+    left: 93px;
+    top: 128px;
+    text-align: center;
+    margin: 17px 0 0 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.coins h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.coins100{
+
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+.box2 h1{
+    margin: 34px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+}
+.footer{
+    position: relative;
+    margin: 0 auto;
+    padding: 14px 0 0 0;
+    width: 1440px;
+    height: 65px;
+    background-color: white;
+    box-shadow: 0px -1px 5px  grey;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
